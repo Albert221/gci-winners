@@ -1,0 +1,58 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>GCI Winners list</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="navbar navbar-light bg-light">
+            <div class="container">
+                <h1 class="navbar-brand mb-0">GCI Winners</h1>
+                <span class="nav-item">
+                    <a href="https://github.com/Albert221/gci-winners" class="nav-link">
+                        <span class="fa fa-github" aria-hidden="true"></span>
+                        GitHub
+                    </a>
+                </span>
+            </div>
+        </header>
+        <main class="container mt-4">
+            <section class="jumbotron">
+                <h2 class="display-4">Welcome!</h2>
+                <p class="lead">We made this simple website so you can easily check out <a href="https://codein.withgoogle.com/">Google Code-in</a> winners, your future employees, employers, contributors, developers and friends!</p>
+                <p>Want to add yourself here? Just make a Pull Request and wait for it to be reviewed!</p>
+            </section>
+            <section class="mt-4">
+                <h2 class="mb-4">The list</h2>
+                <hr>
+                <div class="card-columns">
+                    {% for winner in site.winners %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3 class="h5 card-title mb-1">{{ winner.country }} {{ winner.name }}</h3>
+                                <span class="h6 card-subtitle text-muted mb-2 d-inline-block">{{ winner.year }} &bull; {{ winner.org }}</span>
+                                <p class="card-text">{{ winner.content | markdownify }}</p>
+                                {% for link in winner.links %}
+                                    <a href="{{ link.url }}" class="card-link">
+                                        <span class="fa fa-{{ link.icon }}" aria-hidden="true"></span>
+                                        <span class="sr-only">{{ link.alt | default: link.icon }}</span>
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        </article>
+                    {% endfor %}
+                </div>
+            </section>
+        </main>
+        <footer class="container mt-4 d-flex justify-content-between">
+            <p><a href="https://creativecommons.org/licenses/by-nd/3.0/">CC-BY-ND 3.0</a></p>
+            <p>Made with ❤️ in 🌍</p>
+        </footer>
+    </body>
+</html>
