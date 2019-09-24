@@ -21,4 +21,4 @@ links:
         icon: telegram
         url: https://t.me/Albert221
 ---
-Phasellus maximus sapien odio, tristique pulvinar ipsum porta nec. Aliquam nunc risus, feugiat at convallis ut, fermentum id urna.
+Heya, 17er here. I love Flutter and Go, Kotlin is an awesome language and PHP isn't as bad as everyone says. Currently I do mobile and web development. Feel free to contact me on Telegram if you need something!
