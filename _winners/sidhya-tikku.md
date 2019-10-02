@@ -5,7 +5,7 @@ org: JBoss Community
 country: 🇮🇳
 links:
     -
-        icon: globe
+        icon: behance
         url: https://behance.net/sidhyatikku
         alt: Behance
     -
