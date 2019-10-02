@@ -17,4 +17,4 @@ links:
         icon: facebook
         url: https://www.facebook.com/sabakhukhu
 ---
-Hello! I am from Tbilisi, Georgia. I love gaming, cp, open source and android development. Winning Google Code-In truly changed my life. I met so many intenrational students and spent amazing 4 days at Google HQ. If you are here for pre-gci motivation read others stories too. It's truly a life-changing experience.
+Hello! I am from Tbilisi, Georgia. I love gaming, cp, open source and android development. Winning Google Code-in truly changed my life. I met so many international students and spent amazing 4 days at Google HQ. If you are here for pre-gci motivation read others stories too. It's truly a life-changing experience.
