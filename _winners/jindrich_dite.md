@@ -1,7 +1,7 @@
 ---
 name: Jindřich Dítě
 year: 2018
-org: MovingBlcoks
+org: MovingBlocks
 country: 🇨🇿
 links:
     -
