@@ -35,7 +35,5 @@ links:
     -   
         icon: deviantart
         url: https://deviantart.com/sidhyatikku        
-        
-        
 ---
 Hi! I'm from New Delhi, India and I specialise in front-end. I like to draw random artworks and mess around with tools like illustrator and photoshop. I'm currently focusing on becoming a professional UX Researcher and like to use Sketch & Xd for prototyping. My favourite artists are Dream Theater, Haken and RATM. Whenever I'm bored, I either play football or play guitar.
