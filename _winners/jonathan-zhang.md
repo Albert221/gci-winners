@@ -2,7 +2,7 @@
 name: Jonathan Zhang
 year: 2018
 org: Digitial Impact Alliance (DIAL) with Mifos and LibreHealth
-country: USA
+country: 🇺🇸
 links:
     -
         icon: github
