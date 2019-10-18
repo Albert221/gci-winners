@@ -26,9 +26,7 @@ links:
     -
         icon: twitter
         url: https://twitter.com/sidhyatikku
-    -   
-        icon: dribbble
-        url: https://dribbble.com/sidhyatikku
+        
     -   
         icon: dribbble
         url: https://dribbble.com/sidhyatikku
